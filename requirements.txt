@@ -1,0 +1,4 @@
+requests
+configparser
+aliyun-python-sdk-core
+aliyun-python-sdk-alidns

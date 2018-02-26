@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>aliyun_ddns</Name>
+  <Repository>aliyun_ddns:v1</Repository>
+  <Registry/>
+  <Network>bridge</Network>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Overview/>
+  <Category/>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>http://pp.myapp.com/ma_icon/0/icon_42274589_1515149761/256</Icon>
+  <ExtraParams/>
+  <DateInstalled>1519613488</DateInstalled>
+  <Description/>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish/>
+  </Networking>
+  <Data/>
+  <Environment>
+    <Variable>
+      <Value>1</Value>
+      <Name>UPDATE_INTERVAL</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value/>
+      <Name>ACCESS_KEY_ID</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value/>
+      <Name>ACCESS_KEY_SECRET</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value/>
+      <Name>ACCOUNT_ID</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value/>
+      <Name>RC_DOMAIN</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value/>
+      <Name>RC_RR</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value/>
+      <Name>RC_TYPE</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value/>
+      <Name>RC_RECORD_ID</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value/>
+      <Name>RC_TTL</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+  <Config Name="&#x5237;&#x65B0;&#x95F4;&#x9694;" Target="UPDATE_INTERVAL" Default="1" Mode="" Description="Container Variable: UPDATE_INTERVAL" Type="Variable" Display="always" Required="true" Mask="false">1</Config>
+  <Config Name="ACCESS_KEY_ID" Target="ACCESS_KEY_ID" Default="" Mode="" Description="Container Variable: ACCESS_KEY_ID" Type="Variable" Display="always" Required="true" Mask="true"/>
+  <Config Name="ACCESS_KEY_SECRET" Target="ACCESS_KEY_SECRET" Default="" Mode="" Description="Container Variable: ACCESS_KEY_SECRET" Type="Variable" Display="always" Required="true" Mask="true"/>
+  <Config Name="ACCOUNT_ID" Target="ACCOUNT_ID" Default="" Mode="" Description="Container Variable: ACCOUNT_ID" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="RC_DOMAIN" Target="RC_DOMAIN" Default="" Mode="" Description="Container Variable: RC_DOMAIN" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="RC_RR" Target="RC_RR" Default="" Mode="" Description="Container Variable: RC_RR" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="RC_TYPE" Target="RC_TYPE" Default="" Mode="" Description="Container Variable: RC_TYPE" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="RC_RECORD_ID" Target="RC_RECORD_ID" Default="" Mode="" Description="Container Variable: RC_RECORD_ID" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="RC_TTL" Target="RC_TTL" Default="" Mode="" Description="Container Variable: RC_TTL" Type="Variable" Display="always" Required="true" Mask="false"/>
+</Container>
